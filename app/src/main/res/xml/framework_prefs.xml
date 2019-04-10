@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference
+        app:imageSource="@drawable/headerframework"/>
+
+    <PreferenceCategory android:title="SECURE SCREENSHOT"/>
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Screen Shot In Any Screen" android:key="is_flag_secure_disabled" android:defaultValue="1" android:summaryOn="Disabled" android:summaryOff="Enabled" />
+
+    <PreferenceCategory android:title="USB PLUG/UNPLUG WAKE UP"/>
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="USB plug in/out wakeup" android:key="usb_plugged" android:defaultValue="true" android:summaryOn="On" android:summaryOff="Off" />
+
+    <PreferenceCategory android:title="FINGERPRINT UNLOCK"/>
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Unlock Screen With FP After Reboot" android:key="fingerprint_unlock" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+
+    <PreferenceCategory android:title="BIOMETRIC UNLOCK"/>
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Unlock With Biometrics After Reboot" android:key="agc_biometric_on_boot" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+
+</PreferenceScreen>

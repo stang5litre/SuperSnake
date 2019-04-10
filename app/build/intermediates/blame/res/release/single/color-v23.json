@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/stang5litre/.android/build-cache/15e93950f23a00f534c8238315040991b76aca48/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/stang5litre/.android/build-cache/697c067dd028852009a5d974a2ed601c217ce2bb/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/home/stang5litre/.android/build-cache/697c067dd028852009a5d974a2ed601c217ce2bb/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/stang5litre/.android/build-cache/697c067dd028852009a5d974a2ed601c217ce2bb/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/stang5litre/.android/build-cache/697c067dd028852009a5d974a2ed601c217ce2bb/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/home/stang5litre/.android/build-cache/697c067dd028852009a5d974a2ed601c217ce2bb/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/home/stang5litre/.android/build-cache/697c067dd028852009a5d974a2ed601c217ce2bb/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/stang5litre/.android/build-cache/697c067dd028852009a5d974a2ed601c217ce2bb/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/stang5litre/.android/build-cache/697c067dd028852009a5d974a2ed601c217ce2bb/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/stang5litre/.android/build-cache/697c067dd028852009a5d974a2ed601c217ce2bb/output/res/color-v23/abc_tint_switch_track.xml"
+    }
+]

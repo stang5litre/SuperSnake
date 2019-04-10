@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/layout-land/reboot_layout.xml",
+        "source": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/res/layout-land/reboot_layout.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/layout-land/dialog_color_picker.xml",
+        "source": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/res/layout-land/dialog_color_picker.xml"
+    }
+]

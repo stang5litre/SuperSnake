@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/raw/keep.xml",
+        "source": "/home/stang5litre/AndroidStudioProjects/6thGear-RomControl-v2.0/app/src/main/res/raw/keep.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/debug/raw/keep.xml",
+        "source": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/res/raw/keep.xml"
+    }
+]

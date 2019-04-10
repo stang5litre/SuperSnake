@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/*      Created by Roberto Mariani and Anna Berkovitch, 2015-2016
+        This program is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
+
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+
+        You should have received a copy of the GNU General Public License
+        along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
+<resources>
+
+
+    <!--Contact info arrays-->
+
+    <!--In this array you will put the icons for contact information,
+    for example xda icon for your xda thread, site icon for your site, facebook icon and so on-->
+    <array name="about_contact_us_drawables">
+        <item>@drawable/header</item>
+        <item>@drawable/stang5litre1</item>
+        <item>@drawable/stanggit</item>
+    </array>
+
+    <!--In this array you will put the titles for your contact info items. Keep the order consistent between all 3 arrays-->
+    <string-array name="about_contact_us_text">
+        <item>stang5litre-roms.proboards</item>
+        <item>stang5litre Profile</item>
+        <item>stang5litre Git Hub</item>
+    </string-array>
+
+    <!--In this array you will put the titles for the URL strings that will open once a user clicked on the item-->
+    <string-array name="about_contact_us_links" translatable="false">
+        <item>http://stang5litre-roms.proboards.com/</item>
+        <item>https://forum.xda-developers.com/member.php?u=4840281</item>
+        <item>https://github.com/stang5litre</item>
+    </string-array>
+
+
+
+    <!--Team info arrays-->
+    <array name="about_team_drawables">
+        <item>@drawable/stang5litre1</item>
+        <item>@drawable/klabit87</item>
+        <item>@drawable/jrkruse</item>
+        <item>@drawable/krog18</item>
+        <item>@drawable/crazy</item>
+        <item>@drawable/biikman</item>
+        <item>@drawable/header</item>
+    </array>
+    <string-array name="about_team_names">
+        <item>stang5litre - Developer</item>
+        <item>Klabit87 - Scripts/Testing</item>
+        <item>Jrkruse - Unrooted Method/Aroma</item>
+        <item>Krog18 - Testing/Instructions</item>
+        <item>Craazy82013 -Testing/S-Health</item>
+        <item>Biikman - Testing</item>
+        <item>stang5litre Edition Roms</item>
+
+        
+    </string-array>
+    <string-array name="about_team_links" translatable="false">
+        <item>https://forum.xda-developers.com/member.php?u=4840281</item>
+        <item>https://forum.xda-developers.com/member.php?u=4168602</item>
+        <item>https://forum.xda-developers.com/member.php?u=1949695</item>
+        <item>https://forum.xda-developers.com/member.php?u=7387489</item>
+        <item>https://forum.xda-developers.com/member.php?u=5291480</item>
+        <item>https://forum.xda-developers.com/member.php?u=5823295</item>
+        <item>http://stang5litre-roms.proboards.com/</item>
+    </string-array>
+
+
+
+    <!--Credits and thanks info arrays-->
+    <array name="about_credits_drawables">
+        <item>@drawable/daxgirl</item>
+        <item>@drawable/xdadevelopers</item>
+        <item>@drawable/klabit87</item>
+        <item>@drawable/thereassaad</item>
+        <item>@drawable/tdunham</item>
+    </array>
+    <string-array name="about_credits_names">
+        <item>Daxgirl</item>
+        <item>XDA</item>
+        <item>klabit87</item>
+        <item>thereassaad</item>
+        <item>tdunham</item>
+    </string-array>
+    <string-array name="about_credits_links" translatable="false">
+        <item>https://forum.xda-developers.com/member.php?u=4714483</item>
+        <item></item>
+        <item>https://forum.xda-developers.com/member.php?u=4168602</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>

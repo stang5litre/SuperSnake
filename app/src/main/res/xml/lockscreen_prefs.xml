@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/headerlockscreen" />
+
+    <PreferenceCategory android:title="MATRIX LOCK SCREEN" />
+    <PreferenceScreen android:icon="@drawable/matrix" android:title="Lock Screen Effects" android:summary="Matrix Options">
+
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Matrix Lock Screen Anim " android:key="matrix_anim-lock" android:summaryOn="Enabled " android:summaryOff="Disabled"  />
+
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Matrix Text Colorized " android:dependency="matrix_anim-lock" android:summary="Choose Matrix Text color" android:key="lock_matrix_anim_text_color" android:defaultValue="\#ff286fdd" alphaSlider="true" />
+
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Matrix BG Color" android:dependency="matrix_anim-lock" android:summary="Choose Matrix BG color" android:key="lock_matrix_anim_bg_color" android:defaultValue="\#ff000000" alphaSlider="true" />
+
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:max="255" android:title="Matrix Text Transparency" android:dependency="matrix_anim-lock" android:key="lock_matrix_anim_text_alpha" android:defaultValue="255" min="5" unitsRight="" />
+
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:max="50" android:title="Matrix Text Font Size" android:dependency="matrix_anim-lock" android:key="lock_matrix_anim_font_size" android:defaultValue="40" min="24" unitsRight="" />
+
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:max="50" android:title="Matrix Frequency" android:dependency="matrix_anim-lock" android:key="lock_matrix_anim_frequency" android:defaultValue="5" min="1" unitsRight="" />
+
+    </PreferenceScreen>
+
+    <PreferenceCategory android:title="NEXT ALARM" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="Next Alarm"
+        android:key="next_alarm_switch"
+        android:defaultValue="false"
+        android:summaryOn="Shown"
+        android:summaryOff="Hide"
+        app:packageNameToKill="com.android.systemui"
+        app:isSilent="false"/>
+
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="Next Alarm Color"
+        android:key="next_alarm_color"
+        android:summary="Choisir une couleur"
+        android:defaultValue="-1"
+        app:packageNameToKill="com.android.systemui"
+        app:isSilent="false"/>
+
+
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="Next Alarm PullDown"
+        android:key="next_alarm_switch2"
+        android:defaultValue="false"
+        android:summaryOn="Show"
+        android:summaryOff="Hide"
+        app:packageNameToKill="com.android.systemui"
+        app:isSilent="false"/>
+
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="Text Color"
+        android:key="next_alarm_color2"
+        android:summary="Choose Color"
+        android:defaultValue="-1"
+        app:packageNameToKill="com.android.systemui"
+        app:isSilent="false"/>
+
+    <PreferenceCategory android:title="Quick Reply On Secure Lockscreen">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Quick reply on secure lockscreen" android:key="agc_secure_reply" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" app:isSilent="false" app:packageNameToKill="com.android.systemui" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="TORCHLIGHT WHILE SCREEN IS OFF" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Torchlight While Sreen Off" android:key="torchlight_enable" android:summary=" Turn the flashlight On By Holding Volume Up" />
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/torchlight_timeout_entries" android:title=" Torchlight Off" android:key="torchlight_timeout" android:dependency="torchlight_enable" android:entryValues="@array/torchlight_timeout_values" />
+    <PreferenceCategory android:title="LOCKSCREEN CARRIER" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Remove Carrier" android:key="asc_hide_carrier_lockscreen" android:defaultValue="false" android:summaryOn="Hidden" android:summaryOff="Shown" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Custom text (Only work if carrier hidden)" android:key="asc_CustomTxt_toggle" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Change custom text color" android:key="asc_CustomTxt_color" android:summary="Choose color" android:dependency="asc_CustomTxt_toggle" android:defaultValue="\#ffffff" />
+    <com.wubydax.romcontrol.v2.prefs.MyEditTextPreference android:title="Change text" android:key="asc_CustomTxt_text" android:summary="Choose text" android:dependency="asc_CustomTxt_toggle" android:defaultValue="stang5litre Rom" android:dialogTitle="Edit text" />
+
+    <PreferenceCategory android:title="REMOVE SWIPE TO UNLOCK TEXT" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Remove Swipe to unlock text" android:key="asc_no_text_kg" android:defaultValue="false" android:summaryOn="hidden" android:summaryOff="shown" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Remove charging text" android:key="asc_no_charging_text_kg" android:defaultValue="false" android:summaryOn="Hidden" android:summaryOff="Shown" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
+
+    <PreferenceCategory android:title="CLOCK AND DATE (Widgets must be Hidden)" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Show/Hide" android:key="asc_hide_lockscreen_clock" android:defaultValue="true" android:summaryOn="Shown" android:summaryOff="Hidden" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
+
+    <PreferenceCategory android:title="ANALOG CLOCKS OR WEATHER WIDGET" />
+    <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference android:title="Lockscreen Widgets" android:key="asc_widget_chooser" android:defaultValue="21" app:packageNameToKill="com.android.systemui" app:isSilent="false" app:drawableArray="@array/widget_drawables" app:entryList="@array/widget_entries" app:entryValuesList="@array/widget_values" />
+
+    <PreferenceCategory android:title="CLOCK AND DATE COLORS" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference hexValue="true" alphaSlider="true" android:key="keyguard_clock_custom_text_color" app:isSilent="false" app:packageNameToKill="com.android.systemui" android:title="Keyguard Clock Text Color"/>
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference hexValue="true" alphaSlider="true" android:key="keyguard_date_custom_text_color" app:isSilent="false" app:packageNameToKill="com.android.systemui" android:title="Keyguard Date Text Color"/>
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference hexValue="true" alphaSlider="true" android:key="keyguard_indication_custom_text_color" app:isSilent="false" app:packageNameToKill="com.android.systemui" android:title="Keyguard Indication Text Color"/>
+
+    <PreferenceCategory android:title="OWNER INFO COLOR" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference hexValue="true" alphaSlider="true" android:key="owner_info_custom_text_color" android:title="Owner Info Text Color"/>
+
+    <PreferenceCategory android:title="S8 LOCKSCREEN STYLE" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="S8 Style" android:key="s_eight_style" android:defaultValue="false" android:summaryOn="S8 Clock UI" android:summaryOff="Stock Clock UI" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
+    <PreferenceCategory android:title="LOCKSCREEN ROTATION" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:defaultValue="false" android:key="lockscreen_rotate" android:summaryOff="Off" android:summaryOn="On" android:title="Lockscreen Rotation" app:isSilent="false" app:packageNameToKill="com.android.systemui"/>
+</PreferenceScreen>
+
+
+
+

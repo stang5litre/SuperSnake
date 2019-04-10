@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/xml/contact_prefs.xml",
+        "source": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/res/xml/contact_prefs.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/xml/sound_prefs.xml",
+        "source": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/res/xml/sound_prefs.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/xml/notification_panel_prefs.xml",
+        "source": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/res/xml/notification_panel_prefs.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/xml/lockscreen_prefs.xml",
+        "source": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/res/xml/lockscreen_prefs.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/xml/app_utiles.xml",
+        "source": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/res/xml/app_utiles.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/xml/ui_prefs.xml",
+        "source": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/res/xml/ui_prefs.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/xml/framework_prefs.xml",
+        "source": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/res/xml/framework_prefs.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/xml/phone_prefs.xml",
+        "source": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/res/xml/phone_prefs.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/xml/settings_panel_prefs.xml",
+        "source": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/res/xml/settings_panel_prefs.xml"
+    }
+]

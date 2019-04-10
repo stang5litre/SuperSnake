@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference
+        app:imageSource="@drawable/headerparametres"/>
+
+    <PreferenceCategory android:title=" SYSTEMUI TUNER " />
+    <PreferenceScreen android:title="SystemUI Tuner" android:summary="Open Advanced SystemUI Options">
+        <intent android:targetPackage="com.android.systemui" android:targetClass="com.android.systemui.DemoMode" />
+    </PreferenceScreen>
+
+    <PreferenceCategory android:title="LONG PRESS TO KILL" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:defaultValue="false" android:key="enable_back_kill" android:summaryOff="Menu" android:summaryOn="Kill app" android:title="LongPress Back"/>
+
+    <PreferenceCategory android:title="ANIMATION SCROLLING">
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/listview_animation_entries" android:title="Animation Scrolling" android:key="listview_animation" android:defaultValue="0" android:dialogTitle="Scroll Animation" android:entryValues="@array/listview_animation_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/listview_interpolator_entries" android:title="Setting Animation" android:key="listview_interpolator" android:defaultValue="0" android:dialogTitle="Setting animation" android:entryValues="@array/listview_interpolator_values" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title=" KEY LIGHT DURATION " />
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/button_key_light_entries" android:title="Key Light Duration" android:key="button_key_light" android:summary="%s" android:defaultValue="3000" android:entryValues="@array/button_key_light_values" />
+
+    <PreferenceCategory android:title="CUSTOM LOGO"/>
+    <PreferenceScreen android:title="LOGO CHOICES" android:summary="Select A Logo For Statusbar">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Logo Visibility" android:key="z_logo_hide" android:defaultValue="false" android:summaryOn="Shown" android:summaryOff="Hidden" />
+        <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference android:title="Custom Logo Type" android:key="z_logo_type" android:dependency="z_logo_hide" app:drawableArray="@array/custom_logo_type_drawables" app:entryList="@array/custom_logo_type_entries" app:entryValuesList="@array/custom_logo_type_values" app:packageNameToKill="com.android.systemui" app:isSilent="false" app:dependentValue="1" />
+        <PreferenceCategory android:title="Please select image under 1 MB size, otherwise it will be laggy" />
+        <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference android:title="Select Logo From Gallery" android:key="z_logo_image_uri" app:packageNameToKill="com.android.systemui" app:isSilent="false" android:dependency="z_logo_hide" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Logo Colors" android:key="z_logo_Color" android:dependency="z_logo_type" android:defaultValue="\#ffccdd" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
+    </PreferenceScreen>
+
+    <PreferenceCategory android:title="CUSTOM APP TEXT CHOICES"/>
+    <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+        android:title="TW text size"
+        android:key="agc_tw_text_size"
+        android:defaultValue="20"
+        app:minValue="10"
+        app:maxValue="75"
+        app:packageNameToKill="com.sec.android.app.launcher"
+        app:isSilent="true" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="TW text color"
+        android:defaultValue="#FFFFFF"
+        android:key="agc_tw_text_color"
+        app:packageNameToKill="com.sec.android.app.launcher"
+        app:isSilent="true" />
+
+    <PreferenceCategory android:title="Custom Nav Bar" />
+        <PreferenceScreen android:title="Custom Nav Bar Settings">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Custom Nav Bar Backround" android:key="ed_navbar_custom_bg" android:defaultValue="false" android:summaryOn="enabled" android:summaryOff="disabled" />
+            <PreferenceCategory android:title="General BG Preferences" android:dependency="ed_navbar_custom_bg">
+                <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/custom_bg_type_entries" android:title="Background Type" android:key="ed_navbar_custom_bg_type" android:defaultValue="0" android:entryValues="@array/custom_bg_type_values" n19:dependentValue="0" xmlns:n19="http://schemas.android.com/apk/res-auto" />
+                <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Background Opacity" android:key="ed_navbar_bg_opacity" android:defaultValue="255" n20:maxValue="255" n20:minValue="0" xmlns:n20="http://schemas.android.com/apk/res-auto" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="Custom Image Preferences" android:dependency="ed_navbar_custom_bg">
+                <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference android:title="Select Background Image" android:key="ed_navbar_bg_image_uri" />
+                <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/crop_entries" android:title="Set Image Scaling Type" android:key="ed_navbar_bg_crop_type" android:defaultValue="0" android:entryValues="@array/crop_values" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="Color And Gradient Preferences" android:dependency="ed_navbar_custom_bg">
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Select Primary Color" android:key="ed_navbar_bg_primary_color" android:dependency="ed_navbar_custom_bg_type" android:defaultValue="\#00000000" />
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Secondary Color" android:key="ed_navbar_second_gradient_color" android:dependency="ed_navbar_custom_bg_type" android:defaultValue="\#00000000" />
+                <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/gradient_entries" android:title="Gradient Orientation" android:key="ed_navbar_bg_gradient_orientation" android:dependency="ed_navbar_custom_bg" android:defaultValue="0" android:entryValues="@array/gradient_values" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+            <PreferenceCategory android:title="Nav Bar Size" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Custom Nav Bar Height Switch" android:key="asc1_navbar_height_switch" android:defaultValue="false" android:summaryOn="enabled" android:summaryOff="disabled" />
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Custom Nav Bar Height" android:key="asc1_navbar_height" android:dependency="asc1_navbar_height_switch" android:defaultValue="172" app:maxValue="200" app:minValue="65" app:unitsValue="dp" />
+
+    <PreferenceCategory android:title="Background and Text Color Settings in Power Menu" android:summary="Choose Background and Text Color" />
+    <PreferenceScreen android:title="Background Settings in Power Menu">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Enable Custom Background" android:key="enable_power_menu_custom_bg" android:defaultValue="true" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/custom_bg_type_entries" android:title="Background type" android:key="power_menu_custom_bg_type" android:dependency="enable_power_menu_custom_bg" android:defaultValue="2" android:entryValues="@array/custom_bg_type_values" />
+        <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference android:title="Select the image for a background" android:key="power_menu_bg" android:dependency="enable_power_menu_custom_bg" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/crop_entries" android:title="Select crop factor" android:key="power_menu_crop_type" android:dependency="enable_power_menu_custom_bg" android:defaultValue="0" android:entryValues="@array/crop_values" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Choose Solid Color" android:key="power_menu_bg_primary_color" android:dependency="enable_power_menu_custom_bg" android:defaultValue="\#ff2f3752" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Choose Second Color for Gradient" android:key="power_menu_second_gradient_color" android:dependency="enable_power_menu_custom_bg" android:defaultValue="\#ff522f52" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/gradient_entries" android:title="Gradient Orientation" android:key="power_menu_bg_gradient_orientation" android:dependency="enable_power_menu_custom_bg" android:defaultValue="0" android:entryValues="@array/gradient_values" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Transparensy" android:key="power_menu_opacity" android:dependency="enable_power_menu_custom_bg" android:defaultValue="255" />
+        <PreferenceCategory android:title="Matrix Animation Settings in Power Menu" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Matrix Animation" android:key="power_matrix_enable" android:summaryOn="Enabled " android:summaryOff="Disabled" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Text Color" android:key="power_matrix_anim_text_color" android:summary="Choose Text Color" android:dependency="power_matrix_enable" android:defaultValue="\#1eff00" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Background Color" android:key="power_matrix_anim_bg_color" android:summary="Choose Background Color" android:dependency="power_matrix_enable" android:defaultValue="\#ff000000" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Transparency" android:key="power_matrix_anim_text_alpha" android:dependency="power_matrix_enable" android:defaultValue="100" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Text Size" android:key="power_matrix_anim_font_size" android:dependency="power_matrix_enable" android:defaultValue="46" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Animation frequency" android:key="power_matrix_anim_frequency" android:dependency="power_matrix_enable" android:defaultValue="16" />
+        <PreferenceCategory android:title="Text Color in Power Menu" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Main Text Color" android:key="primary_power_text_color" android:summary="Choose Text Color" android:defaultValue="\#ffffffff" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Status Text Color" android:key="status_power_text_color" android:summary="Choose Text Color" android:defaultValue="\#ffffffff" />
+    </PreferenceScreen>
+
+    <PreferenceCategory android:title="Power Menu Options" android:summary="Display points" />
+        <PreferenceCategory android:title="Power Menu" >
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_data_network_square" android:title="Mobile Data" android:key="power_datamode_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_fast_reboot" android:title="Quick Reboot" android:key="power_quick_reboot_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_download" android:title="Reboot to Download" android:key="power_download_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_recovery" android:title="Reboot to Recovery" android:key="power_recovery_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_screen_recorder" android:title="ScreenRecord" android:key="power_record_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_screenshot" android:title="Screenshot" android:key="power_screenshot_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/ic_settings" android:title="Settings" android:key="power_settings_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_torchlight" android:title="Flashlight" android:key="power_torchlight_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_emergencymode_square" android:title="Emergency" android:key="power_emergency_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_bikemode_square" android:title="SBike Mode" android:key="power_sbike_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

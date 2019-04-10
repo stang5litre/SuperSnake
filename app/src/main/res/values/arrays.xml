@@ -1,0 +1,1477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/*      Created by Roberto Mariani and Anna Berkovitch, 2015-2016
+        This program is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
+
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+
+        You should have received a copy of the GNU General Public License
+        along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
+<resources>
+<string-array name="test_list_entries">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Let\'s make twenty</item>
+    </string-array>
+    <string-array name="test_list_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="theme_items">
+        <item>Theme Light</item>
+        <item>Theme Dark</item>
+    </string-array>
+    <string-array name="backup_restore_items">
+        <item>Save Data</item>
+        <item>Restore Data</item>
+    </string-array>
+    <string-array name="custom_bg_type_entries">
+        <item>Image</item>
+        <item>Solid color</item>
+        <item>Gradient</item>
+    </string-array>
+    <string-array name="custom_bg_type_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="gradient_entries">
+        <item>From up to down</item>
+        <item>Form down to up</item>
+        <item>From left to right</item>
+        <item>From right to left</item>
+    </string-array>
+
+    <string-array name="gradient_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+
+    </string-array>
+
+    <string-array name="crop_entries">
+        <item>Center crop</item>
+        <item>Center inside</item>
+        <item>Fit XY</item>
+    </string-array>
+    <string-array name="crop_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="dashboard_fav_columns_entries">
+        <item>1 Column</item>
+        <item>2 Columns</item>
+    </string-array>
+    <string-array name="dashboard_fav_columns_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="dashboard_cat_columns_entries">
+        <item>1 Column</item>
+        <item>2 Columns</item>
+    </string-array>
+    <string-array name="dashboard_cat_columns_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="carrier_entries">
+        <item>Actual carrier text</item>
+        <item>Custom text</item>
+    </string-array>
+    <string-array name="carrier_entry_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="data_usage_gravity_entries">
+        <item>Right</item>
+        <item>Center</item>
+        <item>Left</item>
+    </string-array>
+    <string-array name="data_usage_gravity_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="data_usage_text_style_entries">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold italic</item>
+    </string-array>
+    <string-array name="data_usage_text_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="SignalPositionName">
+        <item>Right</item>
+        <item>Left</item>
+    </string-array>
+    <string-array name="SignalPositionValue">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="toggle_scroll_entries">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="toggle_scroll_values">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="shape_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="shape_entries">
+        <item>Coins stock</item>
+        <item>Coins arrondis</item>
+    </string-array>
+
+    <string-array name="lowbattpercentage_entries">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="lowbattpercentage_values">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="critbattpercentage_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="critbattpercentage_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+    </string-array>
+	<string-array name="gif_animation_entries">
+        <item>stang5litre</item>
+        <item>stang5litre Edition</item>
+        <item>stang5litre Roms</item>
+        <item>Butt Shake</item>
+        <item>Were All Mad Here</item>
+        <item>Chester Cheto</item>
+        <item>Cool Ape</item>
+        <item>Dancing Baby</item>
+        <item>Animie Hit</item>
+        <item>Dog Waving</item>
+        <item>Eye Ball</item>
+        <item>Girl Dancing</item>
+        <item>Hot Dog</item>
+        <item>I Dont Know</item>
+        <item>Minion BoYa</item>
+        <item>Minion Dancing</item>
+        <item>Minion Floating</item>
+        <item>Minion Guitar</item>
+        <item>Minion Gum</item>
+        <item>Minion Laugh</item>
+        <item>Minion Party</item>
+        <item>Cartoon Nurse</item>
+        <item>Minion Shooting</item>
+        <item>Pac Man</item>
+        <item>Peanut Butter Jelly Time</item>
+        <item>Peg Leg</item>
+        <item>Snake Face</item>
+        <item>Alien Dancing</item>
+        <item>Angry Plant</item>
+        <item>Bad Kool Aid</item>
+        <item>Star Wars</item>
+        <item>Stewie</item>
+        <item>Waving Frozen</item>
+	</string-array>
+	 
+	<string-array name="gif_animation_entries_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+	</string-array>
+
+	<string-array name="gif_recents_animation_entries">
+        <item>stang5litre</item>
+        <item>stang5litre Edition</item>
+        <item>stang5litre Roms</item>
+        <item>Butt Shake</item>
+        <item>Were All Mad Here</item>
+        <item>Chester Cheto</item>
+        <item>Cool Ape</item>
+        <item>Dancing Baby</item>
+        <item>Animie Hit</item>
+        <item>Dog Waving</item>
+        <item>Eye Ball</item>
+        <item>Girl Dancing</item>
+        <item>Hot Dog</item>
+        <item>I Dont Know</item>
+        <item>Minion BoYa</item>
+        <item>Minion Dancing</item>
+        <item>Minion Floating</item>
+        <item>Minion Guitar</item>
+        <item>Minion Gum</item>
+        <item>Minion Laugh</item>
+        <item>Minion Party</item>
+        <item>Cartoon Nurse</item>
+        <item>Minion Shooting</item>
+        <item>Pac Man</item>
+        <item>Peanut Butter Jelly Time</item>
+        <item>Peg Leg</item>
+        <item>Snake Face</item>
+        <item>Alien Dancing</item>
+        <item>Angry Plant</item>
+        <item>Bad Kool Aid</item>
+        <item>Star Wars</item>
+        <item>Stewie</item>
+        <item>Waving Frozen</item>
+	</string-array>
+	 
+	<string-array name="gif_recents_animation_entries_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+	</string-array>
+
+    <array name="gif_status_drawables">
+        <item>@drawable/stang5litre</item>
+        <item>@drawable/stang5litreedition</item>
+        <item>@drawable/stang5litreroms</item>
+        <item>@drawable/buttshake</item>
+        <item>@drawable/wereallmadhere</item>
+        <item>@drawable/chestercheto</item>
+        <item>@drawable/coolape</item>
+        <item>@drawable/dancingbaby</item>
+        <item>@drawable/animiehit</item>
+        <item>@drawable/dogwaving</item>
+        <item>@drawable/eyeball</item>
+        <item>@drawable/girldancing</item>
+        <item>@drawable/hotdog</item>
+        <item>@drawable/idontknow</item>
+        <item>@drawable/minionboya</item>
+        <item>@drawable/miniondancing</item>
+        <item>@drawable/minionfloating</item>
+        <item>@drawable/minionguitar</item>
+        <item>@drawable/miniongum</item>
+        <item>@drawable/minionlaugh</item>
+        <item>@drawable/minionparty</item>
+        <item>@drawable/cartoonnurse</item>
+        <item>@drawable/minionshooting</item>
+        <item>@drawable/pacman</item>
+        <item>@drawable/peanutbutterellytime</item>
+        <item>@drawable/pegleg</item>
+        <item>@drawable/snakeface</item>
+        <item>@drawable/aliendancing</item>
+        <item>@drawable/angryplant</item>
+        <item>@drawable/badkoolaid</item>
+        <item>@drawable/starwars</item>
+        <item>@drawable/stewie</item>
+        <item>@drawable/wavingfrozen</item>
+    </array>
+
+    <array name="gif_recent_drawables">
+        <item>@drawable/stang5litre</item>
+        <item>@drawable/stang5litreedition</item>
+        <item>@drawable/stang5litreroms</item>
+        <item>@drawable/buttshake</item>
+        <item>@drawable/wereallmadhere</item>
+        <item>@drawable/chestercheto</item>
+        <item>@drawable/coolape</item>
+        <item>@drawable/dancingbaby</item>
+        <item>@drawable/animiehit</item>
+        <item>@drawable/dogwaving</item>
+        <item>@drawable/eyeball</item>
+        <item>@drawable/girldancing</item>
+        <item>@drawable/hotdog</item>
+        <item>@drawable/idontknow</item>
+        <item>@drawable/minionboya</item>
+        <item>@drawable/miniondancing</item>
+        <item>@drawable/minionfloating</item>
+        <item>@drawable/minionguitar</item>
+        <item>@drawable/miniongum</item>
+        <item>@drawable/minionlaugh</item>
+        <item>@drawable/minionparty</item>
+        <item>@drawable/cartoonnurse</item>
+        <item>@drawable/minionshooting</item>
+        <item>@drawable/pacman</item>
+        <item>@drawable/peanutbutterellytime</item>
+        <item>@drawable/pegleg</item>
+        <item>@drawable/snakeface</item>
+        <item>@drawable/aliendancing</item>
+        <item>@drawable/angryplant</item>
+        <item>@drawable/badkoolaid</item>
+        <item>@drawable/starwars</item>
+        <item>@drawable/stewie</item>
+        <item>@drawable/wavingfrozen</item>
+    </array>
+
+    <string-array name="volbtn_timeout_entries">
+        <item>100ms</item>
+        <item>150ms</item>
+        <item>200ms</item>
+        <item>250ms</item>
+        <item>300ms</item>
+        <item>350ms</item>
+        <item>400ms</item>
+        <item>450ms</item>
+        <item>500ms</item>
+    </string-array>
+    <string-array name="volbtn_timeout_values">
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+        <item>450</item>
+        <item>500</item>
+    </string-array>
+
+    <string-array name="traffic_state_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="traffic_state_items">
+        <item>Disable view</item>
+        <item>Upload only</item>
+        <item>Download only</item>
+        <item>Upload and Download</item>
+    </string-array>
+    <string-array name="arrow_position_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="arrow_position_entries">
+        <item>To end of view</item>
+        <item>To start of view</item>
+    </string-array>
+    <string-array name="traffic_style_entries">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold italic</item>
+    </string-array>
+    <string-array name="traffic_style_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+	
+	<string-array name="lockscreen_font_style_entries">
+        <item>Android Clock</item>
+        <item>Android Clock Highlight</item>
+        <item>Android Clock Solid</item>
+        <item>Archibald</item>
+        <item>Caviar Dreams</item>
+        <item>Choco Cooky</item>
+        <item>Cutive Mono</item>
+        <item>Cool Jazz</item>
+        <item>Rosemary</item>
+        <item>Ultima</item>
+    </string-array>
+    <string-array name="lockscreen_font_style_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+	
+	 <string-array name="lockscreen_notif_entries">
+        <item>2 (Stock)</item>
+        <item>3 max</item>
+        <item>4 max</item>
+        <item>5 max</item>
+    </string-array>
+    <string-array name="lockscreen_notif_values">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="torchlight_timeout_entries">
+        <item>15 secondes</item>
+        <item>30 secondes</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>10 minutes</item>
+    </string-array>
+    <string-array name="torchlight_timeout_values">
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>600000</item>
+    </string-array>
+	
+	 <string-array name="immersive_entries">
+        <item>Immersive Off</item>
+        <item>Immersive On</item>
+    </string-array>
+    <string-array name="immersive_values">
+        <item>immersive.full</item>
+        <item>immersive.full=*</item>
+    </string-array>
+	
+	<string-array name="volpanel_timeout_entries">
+        <item>1000ms</item>
+        <item>1500ms</item>
+        <item>2000ms</item>
+        <item>2500ms</item>
+        <item>3000ms</item>
+        <item>3500ms</item>
+        <item>4000ms</item>
+        <item>4500ms</item>
+        <item>5000ms (Stock)</item>
+        <item>5500ms</item>
+        <item>6000ms</item>
+        <item>6500ms</item>
+        <item>7000ms</item>
+        <item>7500ms</item>
+        <item>8000ms</item>
+        <item>8500ms</item>
+        <item>9000ms</item>
+        <item>9500ms</item>
+        <item>10000ms</item>
+    </string-array>
+    <string-array name="volpanel_timeout_values">
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+        <item>2500</item>
+        <item>3000</item>
+        <item>3500</item>
+        <item>4000</item>
+        <item>4500</item>
+        <item>5000</item>
+        <item>5500</item>
+        <item>6000</item>
+        <item>6500</item>
+        <item>7000</item>
+        <item>7500</item>
+        <item>8000</item>
+        <item>8500</item>
+        <item>9000</item>
+        <item>9500</item>
+        <item>10000</item>
+    </string-array>
+
+    <string-array name="battery_bar_entries">
+        <item>Hide</item>
+        <item>Show up top</item>
+        <item>Show down below</item>
+    </string-array>
+    <string-array name="battery_bar_values">
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="battery_bar_style_entries">
+        <item>Regular</item>
+        <item>Center-mirrored</item>
+    </string-array>
+    <string-array name="battery_bar_style_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="battery_bar_thickness_entries">
+        <item>1 dp</item>
+        <item>2 dp</item>
+        <item>3 dp</item>
+        <item>4 dp</item>
+    </string-array>
+    <string-array name="battery_bar_thickness_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="wifi_entries" translatable="false">
+        <item>Stock</item>
+        <item>Tower</item>
+        <item>Skull</item>
+        <item>Question Mark</item>
+        <item>Wifi With Text</item>
+        <item>Aosp Style</item>
+        <item>Vertical</item>
+        <item>Radius</item>
+        <item>Arrow</item>
+        <item>Triangle</item>
+        <item>Blast Up</item>
+        <item>Thermometer</item>
+    </string-array>
+    <string-array name="wifi_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="wifi_drawables" translatable="false" >
+        <item>@drawable/wifistyle1</item>
+        <item>@drawable/wifistyle2</item>
+        <item>@drawable/wifistyle3</item>
+        <item>@drawable/wifistyle4</item>
+        <item>@drawable/wifistyle5</item>
+        <item>@drawable/wifistyle6</item>
+        <item>@drawable/wifistyle7</item>
+        <item>@drawable/wifistyle8</item>
+        <item>@drawable/wifistyle9</item>
+        <item>@drawable/wifistyle10</item>
+        <item>@drawable/wifistyle11</item>
+        <item>@drawable/wifistyle12</item>
+    </string-array>
+    <string-array name="wifiarrow_entries" >
+        <item>Stockactivityarrows</item>
+        <item>Noarrowsforbigwifiicons</item>
+    </string-array>
+    <string-array name="wifiarrow_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wifiarrow_drawables" translatable="false" >
+        <item>@drawable/arrowstyle1</item>
+        <item>@drawable/arrowstyle2</item>
+    </string-array>
+
+    <string-array name="signal_entries" translatable="false" >
+        <item>Signal 1 (Stock)</item>
+        <item>Signal 2</item>
+        <item>Signal 3</item>
+        <item>Signal 4</item>
+        <item>Signal 5</item>
+        <item>Signal 6</item>
+        <item>Signal 7</item>
+        <item>Signal 8</item>
+        <item>Signal 9</item>
+        <item>Signal 10</item>
+        <item>Signal 11</item>
+        <item>Signal 12</item>
+        <item>Signal 13</item>
+        <item>Signal 14</item>
+        <item>Signal 15</item>
+        <item>Signal 16</item>
+    </string-array>
+    <string-array name="signal_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="signal_drawables" translatable="false" >
+        <item>@drawable/signalstyle1</item>
+        <item>@drawable/signalstyle2</item>
+        <item>@drawable/signalstyle3</item>
+        <item>@drawable/signalstyle4</item>
+        <item>@drawable/signalstyle5</item>
+        <item>@drawable/signalstyle6</item>
+        <item>@drawable/signalstyle7</item>
+        <item>@drawable/signalstyle8</item>
+        <item>@drawable/signalstyle9</item>
+        <item>@drawable/signalstyle10</item>
+        <item>@drawable/signalstyle11</item>
+        <item>@drawable/signalstyle12</item>
+        <item>@drawable/signalstyle13</item>
+        <item>@drawable/signalstyle14</item>
+        <item>@drawable/signalstyle15</item>
+        <item>@drawable/signalstyle16</item>
+    </string-array>
+
+    <string-array name="alarm_entries" >
+        <item>Alarm1</item>
+        <item>Alarm2</item>
+        <item>Alarm3</item>
+        <item>Alarm4</item>
+        <item>Alarm5</item>
+        <item>Alarm6</item>
+    </string-array>
+    <string-array name="alarm_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="alarm_drawables" translatable="false" >
+        <item>@drawable/alarmstyle1</item>
+        <item>@drawable/alarmstyle2</item>
+        <item>@drawable/alarmstyle3</item>
+        <item>@drawable/alarmstyle4</item>
+        <item>@drawable/alarmstyle5</item>
+        <item>@drawable/alarmstyle6</item>
+    </string-array>
+
+    <string-array name="qclock_date_display_entries">
+        <item>Hide date</item>
+        <item>Small font</item>
+        <item>Normal font</item>
+    </string-array>
+    <string-array name="qclock_date_display_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="qclock_date_format_entries_values">
+        <item>dd/MM/yy</item>
+        <item>MM/dd/yy</item>
+        <item>yyyy-MM-dd</item>
+        <item>yyyy-dd-MM</item>
+        <item>dd-MM-yyyy</item>
+        <item>MM-dd-yyyy</item>
+        <item>MMM dd</item>
+        <item>MMM dd, yyyy</item>
+        <item>MMMM dd, yyyy</item>
+        <item>EEE</item>
+        <item>EEE dd</item>
+        <item>EEE dd/MM</item>
+        <item>EEE MM/dd</item>
+        <item>EEE dd MMM</item>
+        <item>EEE MMM dd</item>
+        <item>EEE MMMM dd</item>
+        <item>EEEE dd/MM</item>
+        <item>EEEE MM/dd</item>
+    </string-array>
+    <string-array name="qclock_date_position_entries">
+        <item>Left of clock</item>
+        <item>Right of clock</item>
+    </string-array>
+    <string-array name="qclock_date_position_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="qclock_date_style_entries">
+        <item>Normal</item>
+        <item>lowercase</item>
+        <item>UPPERCASE</item>
+    </string-array>
+    <string-array name="qclock_date_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="qclock_font_style_entries">
+        <item>Use system font</item>
+        <item>Italic</item>
+        <item>Bold</item>
+        <item>Bold italic</item>
+        <item>Light</item>
+        <item>Light italic</item>
+        <item>Thin</item>
+        <item>Thin italic</item>
+        <item>Crisp italic</item>
+        <item>Thick fat</item>
+        <item>Dense bold italic</item>
+        <item>Medium</item>
+        <item>Medium italic</item>
+    </string-array>
+    <string-array name="qclock_font_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="qclock_style_entries">
+        <item>Left</item>
+        <item>Center</item>
+        <item>Right</item>
+        <item>Center only Dualstatusbar</item>
+    </string-array>
+    <string-array name="qclock_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="qentries_status_bar_am_pm">
+        <item>"Don't show"</item>
+        <item>Small AM/PM</item>
+        <item>Regular AM/PM</item>
+    </string-array>
+    <string-array name="qvalues_status_bar_am_pm">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="widget_entries">
+        <item>Hide Widgets</item>
+        <item>Weather Widget</item>
+        <item>Chrome Mustang</item>
+        <item>Black stang5litre</item>
+        <item>Light Wood Grain</item>
+        <item>Angels And Demons</item>
+        <item>Blue Alien</item>
+        <item>Green Alien</item>
+        <item>Red Wood Grain</item>
+        <item>Android Eatting Apple</item>
+        <item>Iron Man</item>
+        <item>Dark Symbolic</item>
+        <item>Silver Gun Metel</item>
+        <item>Gears</item>
+        <item>Carbon Mustang</item>
+        <item>Swiss Gears</item>
+        <item>Blue Orb</item>
+        <item>Rolex</item>
+        <item>Gear Mustang</item>
+        <item>Carbon Red</item>
+    </string-array>
+    <string-array name="widget_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <array name="widget_drawables">
+        <item>@drawable/nowidget</item>
+        <item>@drawable/weather</item>
+        <item>@drawable/clock_style1</item>
+        <item>@drawable/clock_style2</item>
+        <item>@drawable/clock_style3</item>
+        <item>@drawable/clock_style4</item>
+        <item>@drawable/clock_style5</item>
+        <item>@drawable/clock_style6</item>
+        <item>@drawable/clock_style7</item>
+        <item>@drawable/clock_style8</item>
+        <item>@drawable/clock_style9</item>
+        <item>@drawable/clock_style10</item>
+        <item>@drawable/clock_style11</item>
+        <item>@drawable/clock_style12</item>
+        <item>@drawable/clock_style13</item>
+        <item>@drawable/clock_style14</item>
+        <item>@drawable/clock_style15</item>
+        <item>@drawable/clock_style16</item>
+        <item>@drawable/clock_style17</item>
+        <item>@drawable/clock_style18</item>
+    </array>
+
+    <string-array name="lowcamerabattpercentage_entries">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="lowcamerabattpercentage_values">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="custom_logo_type_entries">
+        <item>Select from Gallery</item>
+        <item>Lego</item>
+        <item>King</item>
+        <item>Flash</item>
+        <item>Linux</item>
+        <item>Chrome Cobra</item>
+        <item>Pac-Man</item>
+        <item>Gear</item>
+        <item>Spider</item>
+        <item>Chrome Mustang</item>
+        <item>Andy Android</item>
+        <item>Nougat</item>
+        <item>Playboy</item>
+        <item>Punisher</item>
+        <item>Stallion</item>
+        <item>Transformers</item>
+        <item>Superman</item>
+        <item>Cobra</item>
+        <item>Batman</item>
+    </string-array>
+    <string-array name="custom_logo_type_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+    </string-array>
+
+    <array name="custom_logo_type_drawables">
+        <item>@drawable/gallery</item>
+        <item>@drawable/lego</item>
+        <item>@drawable/king</item>
+        <item>@drawable/flash</item>
+        <item>@drawable/linux</item>
+        <item>@drawable/cobra1</item>
+        <item>@drawable/pacmans</item>
+        <item>@drawable/gear</item>
+        <item>@drawable/spider</item>
+        <item>@drawable/mustanglogo</item>
+        <item>@drawable/nougatlogo</item>
+        <item>@drawable/nougatlogo2</item>
+        <item>@drawable/playboy</item>
+        <item>@drawable/punisher</item>
+        <item>@drawable/stallion</item>
+        <item>@drawable/transformers</item>
+        <item>@drawable/superman</item>
+        <item>@drawable/cobra</item>
+        <item>@drawable/batman</item>
+    </array>
+
+    <string-array name="toggle_entries">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="toggle_values">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="visualizer_style_entries">
+        <item>Hide</item>
+        <item>Random</item>
+        <item>Circular</item>
+        <item>Lines</item>
+        <item>Top Bottom Graphic</item>
+        <item>Circle</item>
+        <item>Cycle Color Graphic</item>
+        <item>CyanogenMod</item>
+    </string-array>
+    <string-array name="visualizer_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="listview_animation_entries">
+        <item>Off</item>
+        <item>Wave Left</item>
+        <item>Wave Right</item>
+        <item>Scale</item>
+        <item>Alpha</item>
+        <item>Stack Top</item>
+        <item>Stack Bottom</item>
+        <item>Unfold</item>
+        <item>Fold</item>
+        <item>Translate Left</item>
+        <item>Translate Right</item>
+        <item>Rotate</item>
+    </string-array>
+    <string-array name="listview_animation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="listview_interpolator_entries">
+        <item>Off</item>
+        <item>Accelerate</item>
+        <item>Decelerate</item>
+        <item>Accelerate decelerate</item>
+        <item>Anticipate</item>
+        <item>Overshoot</item>
+        <item>Anticipate overshoot</item>
+        <item>Bounce</item>
+    </string-array>
+    <string-array name="listview_interpolator_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="is_notif_bg_shapes">
+        <item>Stock</item>
+        <item>Round</item>
+        <item>3D Black</item>
+        <item>3D Gray</item>
+        <item>3D Red</item>
+        <item>3D White</item>
+        <item>3D Blue</item>
+        <item>3D Golden</item>
+    </string-array>
+    <string-array name="is_notif_bg_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <array name="is_notif_drawables">
+        <item>@drawable/notification_bg_stock</item>
+        <item>@drawable/notification_bg_round</item>
+        <item>@drawable/notification_bg_black</item>
+        <item>@drawable/notification_bg_gray</item>
+        <item>@drawable/notification_bg_red</item>
+        <item>@drawable/notification_bg_white</item>
+        <item>@drawable/notification_bg_xblue</item>
+        <item>@drawable/notification_bg_ygolden</item>
+    </array>
+
+    <string-array name="button_key_light_entries">
+        <item>Always off</item>
+        <item>1 second</item>
+        <item>3 seconds</item>
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>60 seconds</item>
+    </string-array>
+    <string-array name="button_key_light_values">
+        <item>0</item>
+        <item>1000</item>
+        <item>3000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+    </string-array>
+
+    <string-array name="qstile_animation_style_entries">
+        <item>Disabled</item>
+        <item>Flip vertical</item>
+        <item>Flip horizontal</item>
+        <item>Rotate clockwise</item>
+        <item>Rotate counter clockwise</item>
+        <item>Stretch horizontal</item>
+        <item>Stretch vertical</item>
+        <item>Slide from left</item>
+        <item>Slide from right</item>
+        <item>Slide from top</item>
+        <item>Slide from bottom</item>
+        <item>Blink</item>
+    </string-array>
+    <string-array name="qstile_animation_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="qstile_animation_duration_entries">
+        <item>Very slow (3000ms)</item>
+        <item>Slow (2500ms)</item>
+        <item>Default (2000ms)</item>
+        <item>Fast (1500ms)</item>
+        <item>Very fast (1000ms)</item>
+        <item>Extremely fast (500ms)</item>
+        <item>Lightning fast (250ms)</item>
+    </string-array>
+    <string-array name="qstile_animation_duration_values">
+        <item>3000</item>
+        <item>2500</item>
+        <item>2000</item>
+        <item>1500</item>
+        <item>1000</item>
+        <item>500</item>
+        <item>250</item>
+    </string-array>
+    <string-array name="qstile_animation_interpolator_entries">
+        <item>Linear</item>
+        <item>Accelerate</item>
+        <item>Decelerate</item>
+        <item>Accelerate decelerate</item>
+        <item>Bounce</item>
+        <item>Overshoot</item>
+        <item>Anticipate</item>
+        <item>Anticipate overshoot</item>
+    </string-array>
+    <string-array name="qstile_animation_interpolator_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="statusbar_alarm_icon_drawables">
+        <item>@drawable/no_icon</item>
+        <item>@drawable/default_icon</item>
+        <item>@drawable/stat_sys_alarm_1</item>
+        <item>@drawable/stat_sys_alarm_2</item>
+        <item>@drawable/stat_sys_alarm_3</item>
+        <item>@drawable/stat_sys_alarm_4</item>
+        <item>@drawable/stat_sys_alarm_5</item>
+        <item>@drawable/stat_sys_alarm_6</item>
+        <item>@drawable/stat_sys_alarm_7</item>
+    </string-array>
+    <string-array name="statusbar_alarm_icon_entries">
+        <item>Icon is hidden</item>
+        <item>Stock</item>
+        <item>Style 1</item>
+        <item>Style 2</item>
+        <item>Style 3</item>
+        <item>Style 4</item>
+        <item>Style 5</item>
+        <item>Style 6</item>
+        <item>Style 7</item>
+    </string-array>
+    <string-array name="statusbar_alarm_icon_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <array name="statusbar_gps_icon_drawables">
+        <item>@drawable/no_icon</item>
+        <item>@drawable/default_icon</item>
+        <item>@drawable/stat_sys_location1</item>
+        <item>@drawable/stat_sys_location2</item>
+        <item>@drawable/stat_sys_location3</item>
+        <item>@drawable/stat_sys_location4</item>
+        <item>@drawable/stat_sys_location5</item>
+        <item>@drawable/stat_sys_location6</item>
+        <item>@drawable/stat_sys_location7</item>
+        <item>@drawable/stat_sys_location8</item>
+        <item>@drawable/stat_sys_location9</item>
+        <item>@drawable/stat_sys_location10</item>
+    </array>
+    <string-array name="statusbar_gps_icon_entries">
+        <item>Icon is hidden</item>
+        <item>Stock</item>
+        <item>Style 1</item>
+        <item>Style 2</item>
+        <item>Style 3</item>
+        <item>Style 4</item>
+        <item>Style 5</item>
+        <item>Style 6</item>
+        <item>Style 7</item>
+        <item>Style 8</item>
+        <item>Style 9</item>
+        <item>Style 10</item>
+    </string-array>
+    <string-array name="statusbar_gps_icon_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="status_bar_icon_scale_factor_entries">
+        <item>1.0 x 1 (Default)</item>
+        <item>1.1 x 1</item>
+        <item>1.2 x 1</item>
+        <item>1.3 x 1</item>
+        <item>1.4 x 1</item>
+        <item>1.5 x 1</item>
+        <item>1.6 x 1</item>
+        <item>1.7 x 1</item>
+        <item>1.8 x 1</item>
+        <item>1.9 x 1</item>
+        <item>2.0 x 1</item>
+    </string-array>
+    <string-array name="status_bar_icon_scale_factor_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="crop_entries1">
+        <item>Center</item>
+        <item>Center Inside</item>
+        <item>Stretch</item>
+    </string-array>
+    <string-array name="crop_values1">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+	
+	<string-array name="tile_bg_options">
+        <item>Stock colored</item>
+        <item>Custom icon</item>
+        <item>Custom icon from gallery</item>
+    </string-array>
+    <string-array name="tile_bg_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="tile_bg_predefined_icons">
+        <item>Style 1</item>
+        <item>Style 2</item>
+        <item>Style 3</item>
+        <item>Style 4</item>
+        <item>Style 5</item>
+        <item>Style 6</item>
+        <item>Style 7</item>
+        <item>Style 8</item>
+        <item>Style 9</item>
+        <item>Style 10</item>
+        <item>Style 11</item>
+        <item>Style 12</item>
+        <item>Style 13</item>
+        <item>Style 14</item>
+        <item>Style 15</item>
+        <item>Style 16</item>
+        <item>Style 17</item>
+        <item>Style 18</item>
+        <item>Style 19</item>
+        <item>Style 20</item>
+        <item>Style 21</item>
+        <item>Style 22</item>
+        <item>Style 23</item>
+        <item>Style 24</item>
+        <item>Style 25</item>
+        <item>Style 26</item>
+    </string-array>
+    <string-array name="tile_bg_predefined_values">
+        <item>tbg_1</item>
+        <item>tbg_2</item>
+        <item>tbg_3</item>
+        <item>tbg_4</item>
+        <item>tbg_5</item>
+        <item>tbg_6</item>
+        <item>tbg_7</item>
+        <item>tbg_8</item>
+        <item>tbg_9</item>
+        <item>tbg_10</item>
+        <item>tbg_11</item>
+        <item>tbg_12</item>
+        <item>tbg_13</item>
+        <item>tbg_14</item>
+        <item>tbg_15</item>
+        <item>tbg_16</item>
+        <item>tbg_17</item>
+        <item>tbg_18</item>
+        <item>tbg_19</item>
+        <item>tbg_20</item>
+        <item>tbg_21</item>
+        <item>tbg_22</item>
+        <item>tbg_23</item>
+        <item>tbg_24</item>
+        <item>tbg_25</item>
+        <item>tbg_26</item>
+    </string-array>
+    <array name="tile_bg_gallery">
+        <item>@drawable/tbg_1</item>
+        <item>@drawable/tbg_2</item>
+        <item>@drawable/tbg_3</item>
+        <item>@drawable/tbg_4</item>
+        <item>@drawable/tbg_5</item>
+        <item>@drawable/tbg_6</item>
+        <item>@drawable/tbg_7</item>
+        <item>@drawable/tbg_8</item>
+        <item>@drawable/tbg_9</item>
+        <item>@drawable/tbg_10</item>
+        <item>@drawable/tbg_11</item>
+        <item>@drawable/tbg_12</item>
+        <item>@drawable/tbg_13</item>
+        <item>@drawable/tbg_14</item>
+        <item>@drawable/tbg_15</item>
+        <item>@drawable/tbg_16</item>
+        <item>@drawable/tbg_17</item>
+        <item>@drawable/tbg_18</item>
+        <item>@drawable/tbg_19</item>
+        <item>@drawable/tbg_20</item>
+        <item>@drawable/tbg_21</item>
+        <item>@drawable/tbg_22</item>
+        <item>@drawable/tbg_23</item>
+        <item>@drawable/tbg_24</item>
+        <item>@drawable/tbg_25</item>
+        <item>@drawable/tbg_26</item>
+    </array>
+	
+	<array name="notification_bg_select_drawables">
+        <item>@drawable/divider_style_0</item>
+        <item>@drawable/notification_material_bg_1</item>
+        <item>@drawable/notification_material_bg_2</item>
+        <item>@drawable/notification_material_bg_3</item>
+        <item>@drawable/notification_material_bg_4</item>
+        <item>@drawable/notification_material_bg_5</item>
+        <item>@drawable/notification_material_bg_6</item>
+        <item>@drawable/notification_material_bg_7</item>
+    </array>
+    <string-array name="notification_bg_select_entries">
+        <item>Default</item>
+        <item>Style 1</item>
+        <item>Style 2</item>
+        <item>Style 3</item>
+        <item>Style 4</item>
+        <item>Style 5</item>
+        <item>Style 6</item>
+        <item>Style 7</item>
+    </string-array>
+    <string-array name="notification_bg_select_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+	
+	<string-array name="quick_qs_button_entries">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="quick_qs_button_landscape_entries">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+    <string-array name="quick_qs_button_landscape_values">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+    <string-array name="quick_qs_button_values">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>

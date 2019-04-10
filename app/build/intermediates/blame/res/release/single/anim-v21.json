@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/stang5litre/.android/build-cache/15e93950f23a00f534c8238315040991b76aca48/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/stang5litre/.android/build-cache/15e93950f23a00f534c8238315040991b76aca48/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/anim-v21/design_appbar_state_list_animator.xml",
+        "source": "/home/stang5litre/.android/build-cache/15e93950f23a00f534c8238315040991b76aca48/output/res/anim-v21/design_appbar_state_list_animator.xml"
+    }
+]

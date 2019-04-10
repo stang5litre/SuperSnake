@@ -1,0 +1,198 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:2:1-48:12
+MERGED from [com.android.support:design:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/design-24.2.0.aar/e38dc2f0effe8f896df9375f69727ba4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.0.aar/b4b14a28fda632a7b1df19cfa56c348f/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-v4:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.0.aar/f4543581db41900b0ee06e36bd981d14/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:cardview-v7:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/cardview-v7-24.2.0.aar/5051e3c8c1ffff2a32d35421d0a4bc2b/AndroidManifest.xml:17:1-24:12
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/7f289ae3a7afaa03c600b74f58b3c4ba/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.2.0.aar/49490e95261bb1208433d3255200a80e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.2.0.aar/96f718ee5ebce426057fe4d8ec33c373/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-fragment:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.0.aar/752bfb7894903e5261853bfd975357d2/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.0.aar/f2c0cbd4dc7c30c00a3171760fa260f6/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.0.aar/2c24f603ba05b11ad84403023ecab805/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:recyclerview-v7:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-24.2.0.aar/4933f33cd05dd07db01b34cf203dc40d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.0.aar/95f5a08a4eabdbf25d87bea52427699a/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.0.aar/6b146d69a43ad3ce4bb0d771cdd7abe0/AndroidManifest.xml:17:1-27:12
+INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:2:1-48:12
+	package
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:4:11-46
+		INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:2:1-48:12
+		INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:3:11-57
+	android:versionCode
+		INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:2:1-48:12
+		INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:6:5-72
+	android:name
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:6:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:9:22-75
+uses-permission#android.permission.REBOOT
+ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:10:5-11:59
+	tools:ignore
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:11:22-57
+	android:name
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:10:22-62
+uses-permission#android.permission.DEVICE_POWER
+ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:12:5-13:59
+	tools:ignore
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:13:22-57
+	android:name
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:12:22-68
+uses-permission#android.permission.RECOVERY
+ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:14:22-64
+application
+ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:16:5-46:19
+MERGED from [com.android.support:design:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/design-24.2.0.aar/e38dc2f0effe8f896df9375f69727ba4/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/design-24.2.0.aar/e38dc2f0effe8f896df9375f69727ba4/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.0.aar/b4b14a28fda632a7b1df19cfa56c348f/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.0.aar/b4b14a28fda632a7b1df19cfa56c348f/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.0.aar/f4543581db41900b0ee06e36bd981d14/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.0.aar/f4543581db41900b0ee06e36bd981d14/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/cardview-v7-24.2.0.aar/5051e3c8c1ffff2a32d35421d0a4bc2b/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/cardview-v7-24.2.0.aar/5051e3c8c1ffff2a32d35421d0a4bc2b/AndroidManifest.xml:22:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/7f289ae3a7afaa03c600b74f58b3c4ba/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/7f289ae3a7afaa03c600b74f58b3c4ba/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.2.0.aar/49490e95261bb1208433d3255200a80e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.2.0.aar/49490e95261bb1208433d3255200a80e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.2.0.aar/96f718ee5ebce426057fe4d8ec33c373/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.2.0.aar/96f718ee5ebce426057fe4d8ec33c373/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.0.aar/752bfb7894903e5261853bfd975357d2/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.0.aar/752bfb7894903e5261853bfd975357d2/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.0.aar/f2c0cbd4dc7c30c00a3171760fa260f6/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.0.aar/f2c0cbd4dc7c30c00a3171760fa260f6/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.0.aar/2c24f603ba05b11ad84403023ecab805/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.0.aar/2c24f603ba05b11ad84403023ecab805/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.0.aar/95f5a08a4eabdbf25d87bea52427699a/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.0.aar/95f5a08a4eabdbf25d87bea52427699a/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.0.aar/6b146d69a43ad3ce4bb0d771cdd7abe0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.0.aar/6b146d69a43ad3ce4bb0d771cdd7abe0/AndroidManifest.xml:25:5-20
+	android:supportsRtl
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:20:9-41
+	tools:ignore
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:24:9-48
+	android:largeHeap
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:21:9-33
+	android:icon
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:23:9-44
+	android:name
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:17:9-30
+meta-data#com.samsung.android.sdk.multiwindow.penwindow.enable
+ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:25:9-110
+	android:value
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:25:88-108
+	android:name
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:25:20-87
+meta-data#com.sec.android.support.multiwindow
+ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:26:9-94
+	android:value
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:26:71-91
+	android:name
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:26:20-70
+activity#com.wubydax.romcontrol.v2.MainActivity
+ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:27:9-36:20
+	android:label
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:29:13-45
+	android:name
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:28:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+android.intent.category.MULTIWINDOW_LAUNCHER
+ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:30:13-35:29
+action#android.intent.action.MAIN
+ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:31:17-68
+	android:name
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:33:17-76
+	android:name
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:33:27-74
+category#android.intent.category.MULTIWINDOW_LAUNCHER
+ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:34:17-89
+	android:name
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:34:27-86
+activity#com.wubydax.romcontrol.v2.AboutActivity
+ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:37:9-40:20
+	android:parentActivityName
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:39:13-55
+	android:name
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:38:13-42
+service#com.wubydax.romcontrol.v2.utils.BackupRestoreIntentService
+ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:42:9-45:19
+	android:exported
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml:43:13-61
+uses-sdk
+INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml
+INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/design-24.2.0.aar/e38dc2f0effe8f896df9375f69727ba4/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/design-24.2.0.aar/e38dc2f0effe8f896df9375f69727ba4/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.0.aar/b4b14a28fda632a7b1df19cfa56c348f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.0.aar/b4b14a28fda632a7b1df19cfa56c348f/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.0.aar/f4543581db41900b0ee06e36bd981d14/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.0.aar/f4543581db41900b0ee06e36bd981d14/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:cardview-v7:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/cardview-v7-24.2.0.aar/5051e3c8c1ffff2a32d35421d0a4bc2b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/cardview-v7-24.2.0.aar/5051e3c8c1ffff2a32d35421d0a4bc2b/AndroidManifest.xml:20:5-43
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/7f289ae3a7afaa03c600b74f58b3c4ba/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/circleimageview-2.0.0.aar/7f289ae3a7afaa03c600b74f58b3c4ba/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.2.0.aar/49490e95261bb1208433d3255200a80e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-24.2.0.aar/49490e95261bb1208433d3255200a80e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.2.0.aar/96f718ee5ebce426057fe4d8ec33c373/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-24.2.0.aar/96f718ee5ebce426057fe4d8ec33c373/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-fragment:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.0.aar/752bfb7894903e5261853bfd975357d2/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.0.aar/752bfb7894903e5261853bfd975357d2/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.0.aar/f2c0cbd4dc7c30c00a3171760fa260f6/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.0.aar/f2c0cbd4dc7c30c00a3171760fa260f6/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.0.aar/2c24f603ba05b11ad84403023ecab805/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.0.aar/2c24f603ba05b11ad84403023ecab805/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:recyclerview-v7:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-24.2.0.aar/4933f33cd05dd07db01b34cf203dc40d/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-24.2.0.aar/4933f33cd05dd07db01b34cf203dc40d/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.0.aar/95f5a08a4eabdbf25d87bea52427699a/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.0.aar/95f5a08a4eabdbf25d87bea52427699a/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.0.aar/6b146d69a43ad3ce4bb0d771cdd7abe0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.0.aar/6b146d69a43ad3ce4bb0d771cdd7abe0/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml
+INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.0] /home/stang5litre/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.0.aar/b4b14a28fda632a7b1df19cfa56c348f/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml
+		ADDED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/AndroidManifest.xml

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/menu/main.xml",
+        "source": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/res/merged/release/menu/activity_main_drawer.xml",
+        "source": "/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/src/main/res/menu/activity_main_drawer.xml"
+    }
+]

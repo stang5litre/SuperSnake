@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference
+        app:imageSource="@drawable/headermajota"/>
+
+    <PreferenceCategory android:title="Add-Ons">
+        </PreferenceCategory>
+
+    <PreferenceCategory android:title="Advanced Function Menu">
+        <PreferenceScreen android:title="Phone Testing Menu" android:summary="Change phone system between LTE/CDMA/GSM">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.RadioInfo" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Phone USB Mode" android:summary="Allows changing between charging and file transfer mode">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.UsbSettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Phone APN Set up" android:summary="Modify phone access points">
+            <intent android:targetPackage="com.android.settings" android:action="android.settings.APN_SETTINGS" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Development Settings" android:summary="open hidden development menu">
+            <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.DevelopmentSettings" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="IP address / Wifi MAC address" android:summary="IP addresses">
+            <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.Settings$StatusActivity" />
+        </PreferenceScreen>
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Outdoor Mode" android:key="display_outdoor_mode" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Advanced Calling Features">
+        <PreferenceScreen android:title="Activate Advanced Calling" android:summary="Activate Verizon VOLTE">
+            <intent android:targetPackage="com.android.phone" android:action="com.samsung.phone.action.VZW_ADV_CALLING" android:targetClass="com.android.phone.VzwAdvancedCalling" />
+        </PreferenceScreen>
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:summary="IMS Volte Settings" app:componentName="com.samsung.advp.imssettings/com.samsung.advp.imssettings.ImsSettingsLauncherActivity" />
+    </PreferenceCategory>
+</PreferenceScreen>

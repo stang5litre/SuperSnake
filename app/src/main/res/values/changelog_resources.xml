@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="changelog_items">
+        <item>stang5litre 5.0 Edition Roms N v2-Call Recording,3minit Battery,Mod’d Clock,4g Changed To LTE,Screen Record Added,</item>
+        <item>Screen Capture Added,Sig Disabled,PenUP N8,Live Drawing N8,N8 AirCommand,N8 Full Keyboard,AOD s8+,s8+ Launcher,Grx Mod'd,</item>
+        <item>Potato Gradient Status Bar,Air Messages,White Pages,Private Mode Mod'd To Work,AdAway,Samsung Cloud Enabled,</item>
+        <item>Hot Spot Cracked,Over 1K Fonts,VoLTE Icon Removed,Added WiFI Calling Toggle,More Ringtones Sounds Added,</item>
+        <item>More Notification Sounds Added,Any App On Ultra Power Saving Mode,</item>
+        <item>Phone Status Changed To OFFICAL (no pad lock on boot up screen),Custom Boot Animation (Made By Gadget!),</item>
+        <item>Cpu Tweaks Baked In (On-demand),Un rooted Rom,Samsung Pay Working (Non Rooted Only),Viper (Rooted Only),</item>
+        <item>3minit Battery Show Or Hide RC,Stock Battery Show Or Hide RC,Battery Bar Show Or Hide RC,</item>
+        <item>Battery Bar Color RC,Potato Gradient RC,Battery % Hide or Show RC,</item>
+        <item>Battery % Color RC,Wifi Icon Chooser ( 12 Different Icons To Choose From)RC,Wifi Arrows Show or Hide RC,</item>
+        <item>Alarm Clock Icon Chooser ( 6 Different Icons To Choose From)RC,Quick Launcher Added Show or Hide RC,Signal,</item>
+        <item>Data Icons Choose Left or Right Side RC,Heads-up Notifications On or Off RC,Virtual Buttons Added RC,</item>
+        <item>Virtual Buttons  Lock ( Left, Center, Right ) RC,Virtual Buttons  Home ( Left, Center, Right ) RC,</item>
+        <item>Virtual Buttons  Recent ( Left, Center, Right ) RC,Tap On Clock App Selection RC,Clock Show Or Hide RC,</item>
+        <item>Uppercase Text On or Off RC,Clock Location Choice ( Left, Center, Right ) RC,Clock Am/PM Show or Hide RC,</item>
+        <item>Clock Scaling RC,Date Show or Hide RC,Date Format ( Choose from 17 Different Ones ) RC,Statusbar Icon Colors On or Off RC,</item>
+        <item>Global Color On or Off RC,Clock Color RC,Status Icons Color RC,Wifi Signal Icon Color RC,Mobile Signal Icon Color RC,</item>
+        <item>Mobile Type And Arrows Color RC,Roaming Icon Color RC,Airplane Mode Icon Color RC,Notification Icon Color RC,</item>
+        <item>Choice of 33 different gifs RC,Gif in statusbar Lowered In Center or Bottom  RC,Gif in Recents Choice of Top,</item>
+        <item>Middle , or Bottom  RC,Notification Panel BG Pulldown Color   RC,Notification Panel BG IMG  RC,</item>
+        <item>Notification Panel BG Opacity RC,Notification Panel BG Gradient  RC,Custom Text In Statusbar On/Off RC,</item>
+        <item>Custom Text Color  RC,Header Icon Color On/Off  RC,Header Settings Color  RC,Header More Icon Color RC,</item>
+        <item>Data Usage Options On/Off RC,Data Usage left, Center, or Right RC,Data Usage Color RC,Blur in Pulldown On/Off RC,</item>
+        <item>Blur Color Choice RC,Blur Degree Choice RC,Blur Effect BG RC,Multi-User On/Off RC,Heads-up Notifications On/Off RC,</item>
+        <item>Pulldown Carrier Text On/Off RC,Pulldown Carrier Text Color RC,Pulldown Carrier Custom Text RC,Tile Colors On/Off RC,</item>
+        <item>Tile Icon On Color RC,Tile Icon Off Color RC,Tile Icon Editor Color RC,Tile Text Color RC,Tile Divider Color RC,</item>
+        <item>Background Colors On/Off RC,Header Bg Color RC,Quick Toggles Color RC,Quick Settings And Brightness Color RC,</item>
+        <item>Data Usage Bar Color RC,Qs Detail Color RC,Qs Customize Color RC,Search Bar Show/Hide RC,Search Bar Color RC,</item>
+        <item>Search Bar Text Color RC,Search Bar Voice Icon Color RC,Toggle BG Colors RC,Edit Text Color RC,Toggle Page Color RC,</item>
+        <item>Secondary Text Color RC,Background Behind Notifications Colored On/Off RC,Notification Colors On/Off RC,</item>
+        <item>Notification BG Color RC,Notification Bottom Color RC,Clear And Notifications Settings Color RC,</item>
+        <item>Switching Notification Colors Custom On/Off RC,Notification Main Title Text Color RC,</item>
+        <item>Notification 2nd Title Detailed Color RC,Notification Title App Name Text Color RC,Notification Main Text Color RC,</item>
+        <item>Notification Time Text Color RC,Group Notification Text Color On/Off RC,Group Notification Title Color RC,</item>
+        <item>Group Notification Text Color RC,Notification Action Button Color RC,On Going Notification On/Off RC,</item>
+        <item>Torch Light Turn on With Volume On/Off RC,Torch Light Duration Before Cut Off RC,Lock Screen Carrier Show or Hide RC,</item>
+        <item>Lock Screen Carrier Custom Text RC,Lock Screen Carrier Custom Text Color RC,Swipe to Unlock Text Show or Hide RC,</item>
+        <item>Charing Text On Lock Screen Show or Hide RC,Analog Clocks For Lock Screen On or Off RC,</item>
+        <item>19 Different Analog Clocks To Choose From RC,Weather Widget For Lock Screen RC,Lock Screen Clock Color RC,</item>
+        <item>Lock Screen Date Color RC,Lock Screen Indication Text Color RC,Owner Info Text Color RC,S8 Style Lock Screen  On or Off RC,</item>
+        <item>Lock Screen Roation On or Off RC,Custom BG For In-CallUI On or Off RC,Custom Bg In-CallUI Opacity RC,</item>
+        <item>Custom Bg In-CallUI Color RC,Custom BG In-CallUI,Gradient RC,Record Phone Calls Automatically On or Off RC,</item>
+        <item>Secure Screen Shot On or Off RC,Usb Plug In Wake Up Phone Screen On or Off RC,Unroot Rom with RC,SystemUI Tuner RC,</item>
+        <item>Grx Launcher Options RC,Number Of Visible Toggles Shown RC,AdAway RC,Air Command RC,SuperSU RC,</item>
+        <item>Long Press Back To Kill On or Off RC,Animation Scrolling Animation On or Off RC,</item>
+        <item>Animation Scrolling Animation 12 Different Choices RC,Setting Animation On or Off RC,</item>
+        <item>Setting Animation 7 Different Choices RC,Custom Logo In Statusbar On or Off RC,</item>
+        <item>Custom Logo In Statusbar 18 Different Choices RC,Custom Logo In Statusbar Color RC,</item>
+        <item>Custom Logo In Statusbar Choice From Gallery RC,Viper Audio RC,CM Music Visualizer On Or Off RC,</item>
+        <item>CM Music Visualizer 7 Different Effects to Choose From RC,Volume Warning On or Off RC,FM Radio RC,Phone Testing Mode RC,</item>
+        <item>Phone Options To Pick USB,MTP,Charging RC,Phone APN Setup RC,Developer Settings Shortcut RC,Outdoor Mode On or Off RC,</item>
+        <item>Activate Vo-LTE (Verizon) RC,IMS Settings RC,Window Lock in Recents Added,Matrix Effects In Recents On Or Off RC,</item>
+        <item>Matrix Effects Freg RC,Matrix Text Size RC,Matrix Text Color RC,Matrix BG Color RC,Matrix Text Opacity RC</item>
+
+    </string-array>
+
+    <!--This will be the dialog title.
+    Put your own rom version and name.
+    Have fun-->
+    <string name="rom_version_for_changelog">stang5litre 5.0 Edition Roms 11.05.17</string>
+
+
+</resources>

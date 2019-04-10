@@ -1,0 +1,4 @@
+#Thu Aug 24 00:22:06 EDT 2017
+base.0=/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0
+renamed.0=classes.dex
+file.0=/home/stang5litre/AndroidStudioProjects/stang5litre-RomControl-v2.1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex
