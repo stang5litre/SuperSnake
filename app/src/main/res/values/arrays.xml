@@ -1474,4 +1474,12 @@
         <item>9</item>
         <item>10</item>
     </string-array>
+    <string-array name="custom_sb_bg_type_entries">
+        <item>Solid color</item>
+        <item>Gradient</item>
+    </string-array>
+    <string-array name="custom_sb_bg_type_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

@@ -4,10 +4,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference
         app:imageSource="@drawable/headersystemui"/>
-
-    <PreferenceCategory android:title="GRADIENT STATUSBAR">
-        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference android:icon="@drawable/gradient" android:title="Potato Gradient" app:componentName="com.potato.gradientapp/com.potato.gradientapp.MainActivity" />
-    </PreferenceCategory>
+    <PreferenceCategory android:title="Status Bar Background" />
+    <PreferenceScreen android:title="Background Settings">
+        <PreferenceCategory android:title="Background and Gradient" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Activate custom background" android:key="enable_sb_custom_bg" android:defaultValue="false" android:summaryOn="On" android:summaryOff="Off" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/custom_sb_bg_type_entries" android:title="Background type" android:key="sb_custom_bg_type" android:dependency="enable_sb_custom_bg" android:defaultValue="1" android:entryValues="@array/custom_sb_bg_type_values" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Primary color" android:key="sb_bg_primary_color" android:summary="Select color" android:dependency="enable_sb_custom_bg" android:defaultValue="\#00000000" hexValue="true" alphaSlider="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference android:title="Gradient" android:key="sb_second_gradient_color" android:summary="Select color" android:dependency="enable_sb_custom_bg" android:defaultValue="\#00000000" hexValue="true" alphaSlider="true" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/gradient_entries" android:title="Gradient orientation" android:key="sb_bg_gradient_orientation" android:dependency="enable_sb_custom_bg" android:defaultValue="0" android:entryValues="@array/gradient_values" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference android:title="Transparency" android:key="sb_opacity" android:dependency="enable_sb_custom_bg" android:defaultValue="255" app:maxValue="255" />
+    </PreferenceScreen>
     <PreferenceCategory android:title="BATTERY OPTIONS">
         <PreferenceScreen android:icon="@drawable/battery" android:title="3Minit And Battery Options">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/batterystock" android:title="Battery Stock" android:key="stock_battery_visibility" android:defaultValue="default" android:summaryOn="Show" android:summaryOff="Hide" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
