@@ -89,16 +89,15 @@
 
     <PreferenceCategory android:title="Power Menu Options" android:summary="Display points" />
         <PreferenceCategory android:title="Power Menu" >
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_data_network_square" android:title="Mobile Data" android:key="power_datamode_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_fast_reboot" android:title="Quick Reboot" android:key="power_quick_reboot_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_download" android:title="Reboot to Download" android:key="power_download_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_recovery" android:title="Reboot to Recovery" android:key="power_recovery_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_screen_recorder" android:title="ScreenRecord" android:key="power_record_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_screenshot" android:title="Screenshot" android:key="power_screenshot_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/ic_settings" android:title="Settings" android:key="power_settings_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_torchlight" android:title="Flashlight" android:key="power_torchlight_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_emergencymode_square" android:title="Emergency" android:key="power_emergency_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_bikemode_square" android:title="SBike Mode" android:key="power_sbike_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_rebootui" android:title="Reboot UI" android:key="reboot_ui_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_data_network_square" android:title="Mobile Data" android:key="power_datamode_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_fast_reboot" android:title="Quick Reboot" android:key="power_quick_reboot_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_download" android:title="Reboot to Download" android:key="power_download_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_recovery" android:title="Reboot to Recovery" android:key="power_recovery_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_screen_recorder" android:title="ScreenRecord" android:key="power_record_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_screenshot" android:title="Screenshot" android:key="power_screenshot_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/ic_settings" android:title="Settings" android:key="power_settings_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:icon="@drawable/tw_ic_do_torchlight" android:title="Flashlight" android:key="power_torchlight_show" android:defaultValue="false" android:summaryOn="Show" android:summaryOff="Hide" />
     </PreferenceCategory>
 
 </PreferenceScreen>

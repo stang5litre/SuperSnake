@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SuperSnake.iml" filepath="$PROJECT_DIR$/SuperSnake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SuperSnakeS9plus.iml" filepath="$PROJECT_DIR$/SuperSnakeS9plus.iml" group="SuperSnakeS9plus" />
+      <module fileurl="file://$PROJECT_DIR$/app/SuperSnakeS9plus-app.iml" filepath="$PROJECT_DIR$/app/SuperSnakeS9plus-app.iml" group="SuperSnakeS9plus/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
